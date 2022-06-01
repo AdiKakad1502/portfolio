@@ -49,6 +49,7 @@ ul {
     right: 0;
     opacity: 1;
     z-index: 0;
+    /* width: 100%; */
 
 }
 
@@ -141,6 +142,16 @@ ul {
 
 .shadow-dark {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: "";
+    display:table;
+    clear:both;
+    visibility: hidden;
 }
 
 /*ASIDE*/
