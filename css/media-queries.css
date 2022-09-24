@@ -19,7 +19,7 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .about .about-content .education,
+    .about .about-content .education, .about .about-content .experience,
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
