@@ -29,7 +29,7 @@
         display:none
     }
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -40,5 +40,18 @@
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width:100%;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
